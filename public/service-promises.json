@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "title": "Finest Code",
+      "icon": "FaCode"
+    },
+    {
+      "id": 2,
+      "title": "User Friendly",
+      "icon": "FaUser"
+    },
+    {
+      "id": 3,
+      "title": "Secure",
+      "icon": "RiSecurePaymentFill"
+    },
+    {
+      "id": 4,
+      "title": "Scalable",
+      "icon": "VscLayersActive"
+    },
+    {
+      "id": 5,
+      "title": "B. Focused",
+      "icon": "FaMoneyBillTrendUp"
+    }
+  ]
+  
