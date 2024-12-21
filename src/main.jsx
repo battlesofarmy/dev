@@ -6,10 +6,14 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Contact from './Components/Pages/Contact.jsx';
 import About from './Components/Pages/About.jsx';
 import Home from './Components/Pages/Home/Home.jsx';
 import SinglePromise from './Components/Pages/Home/SinglePromise.jsx';
+import Projects from './Components/Pages/Projects.jsx';
+import Skills from './Components/Pages/Skills.jsx';
+import Education from './Components/Pages/Education.jsx';
+import Exprience from './Components/Pages/Exprience.jsx';
+import Details from './Components/Pages/details/Details.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,14 +28,30 @@ const router = createBrowserRouter([
         element: <SinglePromise/>,
         loader: ()=> fetch('/service-promises.json')
       },{
-        path: "/about",
-        element: <About />
-      },{
-        path: "/contact",
-        element: <Contact/>
-      },
+        path: "/projects",
+        element: <Projects />
+      }
     ],
   },
+  {
+    path: "/details",
+    element: <Details/>, 
+    children: [
+      {
+        path: "/details/about",
+        element: <About />
+      },{
+        path: "/details/skills",
+        element: <Skills />
+      },{
+        path: "/details/exprience",
+        element: <Exprience />
+      },{
+        path: "/details/education",
+        element: <Education />
+      }
+    ]
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(

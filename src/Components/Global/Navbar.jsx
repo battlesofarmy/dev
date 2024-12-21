@@ -5,8 +5,11 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
-  { name: 'About', href: '/About', current: false },
-  { name: 'Contact', href: '/Contact', current: false },
+  { name: 'About', href: '/details/about', current: false },
+  { name: 'Skills', href: '/details/skills', current: false },
+  { name: 'Education', href: '/details/education', current: false },
+  { name: 'Exprience', href: '/details/exprience', current: false },
+  { name: 'Projects', href: '/projects', current: false },
 ];
 
 function classNames(...classes) {
@@ -46,7 +49,7 @@ export default function Navbar() {
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
                   /> */}
-                  <Link to='/'><h2 className="text-2xl text-gray-200">Muntasir</h2></Link>
+                  <Link to='/'><h2 className="text-2xl text-gray-200">Muntasir Ahmed</h2></Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
