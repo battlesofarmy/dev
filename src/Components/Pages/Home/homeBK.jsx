@@ -38,6 +38,7 @@ export default function Home() {
                 {
                   promises?.map((ele, i)=>{
                     const GetIcon = IconMap[ele.icon];
+                    console.log(GetIcon)
                     return(
                    
                       <Link  to={`/promises/${i+1}`} key={i} className="icon-item text-center py-10 w-56">
@@ -52,19 +53,16 @@ export default function Home() {
 
             <br /><br /><br />
 
-            <div className="grid place-items-cener md:grid-cols-2 lg:grid-cols-5" id="dev_services">
+            <div className="grid grid-cols-5 gap-10">
               {
-                    promises?.map((ele, i)=>{
-                      const GetIcon = IconMap[ele.icon];
-                      return(
-                        <Link to={`/promises/${i+1}`} key={i} className="text-center m-4 shadow py-[3.125rem] px-5 icon-item">
-                             <div className="">
-                               <div className="text-[3rem] icon">{GetIcon ? <GetIcon /> : null} </div>
-                               <h2 className="text-2xl mt-4 font-semibold">{ele.title}</h2>
-                             </div>
-                       </Link>
-                      )
-                    })
+                  promises?.map((ele, i)=>{
+                    <div key={i} className="fle justify-center shadow p-10">
+                      <div className="">
+                        <FaCode className="text-5xl"/>
+                        <h2 className="text-2xl">Clear Code</h2>
+                      </div>
+                  </div>
+                  })
               }
               
               
