@@ -14,6 +14,11 @@ import Skills from './Components/Pages/Skills.jsx';
 import Education from './Components/Pages/Education.jsx';
 import Exprience from './Components/Pages/Exprience.jsx';
 import Details from './Components/Pages/details/Details.jsx';
+import Achivements from './Components/Pages/Achivements.jsx';
+import Ecommerce from './Components/Pages/Projects/Ecommerce.jsx';
+import LandingPage from './Components/Pages/Projects/LandingPage.jsx';
+import Booking from './Components/Pages/Projects/Booking.jsx';
+import Educational from './Components/Pages/Projects/Educational.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +32,18 @@ const router = createBrowserRouter([
         path: "/promises/:id",
         element: <SinglePromise/>,
         loader: ()=> fetch('/service-promises.json')
+      },{
+        path: "/projects/111",
+        element: <Ecommerce/>,
+      },{
+        path: "/projects/112",
+        element: <LandingPage/>,
+      },{
+        path: "/projects/113",
+        element: <Booking/>,
+      },{
+        path: "/projects/114",
+        element: <Educational/>,
       },{
         path: "/projects",
         element: <Projects />
@@ -49,6 +66,9 @@ const router = createBrowserRouter([
       },{
         path: "/details/education",
         element: <Education />
+      },{
+        path: "/details/acivements",
+        element: <Achivements />
       }
     ]
   }

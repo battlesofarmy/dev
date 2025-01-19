@@ -4,7 +4,7 @@ import { FaUpwork } from "react-icons/fa6";
 
 export default function SocalIcons() {
   return (
-    <div style={{ color: "#D97706" }} className="flex gap-3 justify-center mt-8">
+    <div className="flex gap-3 justify-center mt-8 text-secondary">
       <a target="_blank" href="https://www.upwork.com/freelancers/~01e5bc188d1ea0c502">
         <FaUpwork className="text-3xl" />
       </a>

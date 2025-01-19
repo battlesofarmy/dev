@@ -21,8 +21,8 @@ function Footer() {
         <div className="mt-16 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
           <p className="order-2 md:order-1 mt-8 md:mt-0">&copy; 2024. All Rights Reverved</p>
           <div className="order-1 md:order-2">
-            <span className="px-2 border-r-[1px]"><Link to='/about'>About me</Link></span>
-            <span className="px-2 border-r-[1px]"><Link to='/exprience'>Exprience</Link></span>
+            <span className="px-2 border-r-[1px]"><Link to='/details/about'>About me</Link></span>
+            <span className="px-2 border-r-[1px]"><Link to='/details/exprience'>Exprience</Link></span>
             <span className="px-2"><Link to='/projects'>Projects</Link></span>
           </div>
         </div>

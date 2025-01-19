@@ -21,7 +21,13 @@ export default {
         '2xl': '1496px',
       },
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary : "#3B52AD",
+        // secondary : "#D97706"
+        secondary : "orange"
+      },
+    },
   },
   plugins: [
     require('daisyui'),

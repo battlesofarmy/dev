@@ -1,28 +1,132 @@
 [
     {
       "id": 1,
-      "title": "Finest Code",
-      "icon": "FaCode"
+      "title": "Clean Code",
+      "des" : "Promise Delivering well-structured, readable, and maintainable code",
+      "icon": "FaCode",
+      "img" : "/promises/clean-code.png",
+      "myobj" : {
+        "title" : "How I will Make Sure the Clean Code?",
+        "details" : [
+          {"name" : "Code Standards:", "value" : "We follow industry best practices like adhering to linting rules, naming conventions, and frameworks like Clean Architecture."},
+          {"name" : "Peer Reviews:", "value" : "Each piece of code is reviewed by at least one other developer to ensure quality and eliminate errors."},
+          {"name" : "Automated Tests:", "value" : "We integrate unit tests and automated testing to catch potential bugs early."},
+          {"name" : "Version Control:", "value" : "We use version control systems like Git for clear history and rollback capabilities."}
+        ]
+      }
     },
     {
       "id": 2,
       "title": "User Friendly",
-      "icon": "FaUser"
+      "des" : "Promise to give Designing intuitive and engaging user interfaces.",
+      "icon": "FaUser",
+      "img" : "/promises/user-friendly.png",
+      "myobj" : {
+        "title" : "How I will Make Sure the User-Friendly Interfaces?",
+        "details" : [
+          {"name" : "User Research:", "value" : "We conduct research to understand your target audience and their preferences."},
+          {"name" : "Peer Reviews:", "value" : "Each piece of code is reviewed by at least one other developer to ensure quality and eliminate errors."},
+          {
+            "name" : "Automated Tests:", 
+            "value" : "We integrate unit tests and automated testing to catch potential bugs early."
+          },
+          {
+            "name": "Prototyping and Feedback:",
+            "value": "Before finalizing, we present prototypes or mockups to ensure alignment with your vision."
+          },
+          {
+            "name": "Responsive Design:",
+            "value": "We ensure your interface is optimized for all devices (desktop, tablet, and mobile)."
+          },
+          {
+            "name": "Accessibility Compliance:",
+            "value": "We design with accessibility in mind, adhering to standards like WCAG."
+          }
+        ]
+      }
     },
     {
       "id": 3,
       "title": "Secure",
-      "icon": "RiSecurePaymentFill"
+      "des" : "Promise to Protecting your application and user data from vulnerabilities",
+      "icon": "RiSecurePaymentFill",
+      "img" : "/promises/secure.png",
+      "myobj" : {
+        "title" : "How I will Make Sure the Security of your Codes?",
+        "details" :[
+          {
+            "name": "Secure Code Practices:",
+            "value": "We use techniques like input validation, encryption, and secure APIs."
+          },
+          {
+            "name": "Regular Security Audits:",
+            "value": "We perform penetration testing and code reviews to identify vulnerabilities."
+          },
+          {
+            "name": "Compliance Standards:",
+            "value": "We adhere to relevant security standards (e.g., GDPR, OWASP Top 10)."
+          },
+          {
+            "name": "Ongoing Monitoring:",
+            "value": "Post-launch, we offer monitoring services to detect and address security threats."
+          }
+        ]
+      }
     },
     {
       "id": 4,
       "title": "Scalable",
-      "icon": "VscLayersActive"
+      "des" : "Promise Delivering well-structured, readable, and maintainable code",
+      "icon": "VscLayersActive",
+      "img" : "/promises/scalable.png",
+      "myobj" : {
+        "title" : "How I will Make Sure the Scalability?",
+        "details" : [
+          {
+            "name": "Flexible Architecture:",
+            "value": "Our websites are built with modular designs, ensuring they can adapt as your business grows."
+          },
+          {
+            "name": "Cloud Integration:",
+            "value": "We integrate cloud services to ensure high availability and effortless scalability."
+          },
+          {
+            "name": "Load Testing:",
+            "value": "We perform rigorous load testing to ensure your website performs efficiently under heavy traffic."
+          },
+          {
+            "name": "Future-Proof Technology:",
+            "value": "We use modern frameworks and technologies to ensure your website stays relevant for years to come."
+          }
+        ]
+      }
     },
     {
       "id": 5,
       "title": "B. Focused",
-      "icon": "FaMoneyBillTrendUp"
+      "des" : "Promise Delivering well-structured, readable, and maintainable code",
+      "icon": "FaMoneyBillTrendUp",
+      "img" : "/promises/business-focused.png",
+      "myobj" : {
+        "title" : "How I will help you to Grow Your Business?",
+        "details" : [
+          {
+            "name": "Tailored User Experience:",
+            "value": "We design websites that align with your target audience's needs and preferences."
+          },
+          {
+            "name": "Conversion Optimization:",
+            "value": "Our designs focus on maximizing user engagement and driving conversions."
+          },
+          {
+            "name": "SEO-Friendly Design:",
+            "value": "We build websites optimized for search engines to increase your online visibility."
+          },
+          {
+            "name": "Analytics Integration:",
+            "value": "We implement analytics tools to track user behavior and measure your website’s success."
+          }
+        ]
+      }
     }
   ]
-  

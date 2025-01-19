@@ -11,11 +11,25 @@ export default function Details() {
   return (
     <>
     <Navbar/>
-      <section className="my-12">
+      <section>
         <div className="container">
-          <div className="md:grid grid-cols-12 gap-10">
+          <div className="lg:grid grid-cols-12 gap-8">
+
+
+             {/* Right Side  */}
+             <div  style={{background: '#111827'}} className="md:col-span-9 col-span-7 p-5 lg:p-10 lg:my-10 my-3 order-2">
+              <h2 className="text-2xl text-white capitalize">{title}</h2>
+              <hr className="my-5 h-[2px] bg-gradient-to-r from-red-500 to-blue-500 border-0" />
+              <div className="text-gray-300">
+                <Outlet/>
+              </div>
+            </div>
+
+
+
+
             {/* Left Side  */}
-            <div style={{background: '#111827'}} className="md:col-span-3 col-span-5 p-10 md:sticky top-10 h-screen">
+            <div style={{background: '#111827'}} className="md:col-span-3 col-span-5 p-5 lg:p-10 md:sticky top-10 h-screen lg:my-10 my-3 order-1">
               <img src={profilePic} alt="Muntasir Profile Pic" />
               <h2 className="text-2xl text-white mt-5">Muntasir Ahmed</h2>
               <SocalIcons/>
@@ -36,14 +50,7 @@ export default function Details() {
                 </div>
               </div>
             </div>
-            {/* Right Side  */}
-            <div  style={{background: '#111827'}} className="md:col-span-9 col-span-7 p-10">
-              <h2 className="text-2xl text-white capitalize">{title}</h2>
-              <hr className="my-5 h-[2px] bg-gradient-to-r from-red-500 to-blue-500 border-0" />
-              <div className="text-gray-300">
-                <Outlet/>
-              </div>
-            </div>
+           
           </div>
         </div>
       </section>

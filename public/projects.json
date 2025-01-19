@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 111,
+        "title" : "Ecommerce Websites",
+        "des" : "Built a dynamic e-commerce platform with secure payments, intuitive navigation, and responsive design for a seamless shopping experience.",
+        "img" : "/projects/ecommerce-website.png"
+    },{
+        "id" : 112,
+        "title" : "Landing Page Design",
+        "des" : "Designed a responsive and visually engaging landing page with clear Call-to-Actions, optimized for conversion and fast loading.",
+        "img" : "/projects/landing-page-design.png"
+    },{
+        "id" : 113,
+        "title" : "Booking Websites",
+        "des" : "Built a user-friendly booking platform with real-time availability, secure payments, and responsive design for seamless user experience",
+        "img" : "/projects/booking-websites.png"
+    },{
+        "id" : 114,
+        "title" : "Others Websites",
+        "des" : "Showcased professional skills and projects with a sleek, responsive design, optimized for showcasing achievements effectively.",
+        "img" : "/projects/other-website-designs.png"
+    }
+]

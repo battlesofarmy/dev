@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { IoMdTrophy } from "react-icons/io";
+
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
@@ -25,7 +27,7 @@ export default function Navbar() {
 
   return (
 <>
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gra-800 bg-[#111827]">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -67,6 +69,7 @@ export default function Navbar() {
                         {item.name}
                       </Link>
                     ))}
+                    <Link to={'/details/acivements'}><IoMdTrophy className='text-secondary mt-1 text-3xl'/></Link>
                   </div>
                 </div>
               </div>
