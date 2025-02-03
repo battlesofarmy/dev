@@ -18,7 +18,7 @@ import Achivements from './Components/Pages/Achivements.jsx';
 import Ecommerce from './Components/Pages/Projects/Ecommerce.jsx';
 import LandingPage from './Components/Pages/Projects/LandingPage.jsx';
 import Booking from './Components/Pages/Projects/Booking.jsx';
-import Educational from './Components/Pages/Projects/Educational.jsx';
+import Others from './Components/Pages/Projects/Others.jsx';
 
 const router = createBrowserRouter([
   {
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
         element: <Booking/>,
       },{
         path: "/projects/114",
-        element: <Educational/>,
+        element: <Others/>,
       },{
         path: "/projects",
         element: <Projects />

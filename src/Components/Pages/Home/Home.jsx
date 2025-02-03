@@ -10,6 +10,8 @@ import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import CPImg from "../../../assets/problem-solving-skills.png";
 import CPExprience from "../../Global/CPExprience";
 import bn from '../../../../public/banner-image.jpg'
+import { Parallax } from 'react-parallax';
+
 
 export default function Home() {
   const [promises, setPromises] = useState();
@@ -42,14 +44,31 @@ export default function Home() {
   return (
     <>
     {/* Banner Section  */}
-    <section style={{background: `url(${bn})no-repeat`, backgroundSize: 'cover'}}>
+    {/* <section style={{background: `url(${bn})no-repeat`, backgroundSize: 'cover'}}>
       <div className="container h-[80vh] text-white bg-black bg-opacity-60 flex justify-center items-center text-center">
           <div>
-             <h2 className="text-5xl mb-10">Do you want to See a Quality?</h2>
-             <Link to='/projects' className="px-8 py-3 bg-gradient-to-r from-secondary my-8 text-lg font-medium hover:bg-gradient-to-l">Press Me</Link>
+             <h2 className="text-5xl mb-12">Do you want to See a Quality?</h2>
+             <Link to='/projects' className="px-8 py-3 bg-gradient-to-r from-secondary text-lg font-medium hover:bg-gradient-to-l">Yes, Show Me</Link>
           </div>
         </div>
-    </section>
+    </section> */}
+
+
+    {/* Banner Section with peralex effect */}
+    <Parallax bgImage={bn} strength={500}>
+      <div className="container h-[50vh] md:h-[80vh] flex justify-center items-center text-center text-white bg-black bg-opacity-60">
+        <div>
+          <h2 className="text-5xl mb-12">Do you want to See a Quality?</h2>
+          <Link
+            to="/projects"
+            className="px-8 py-3 bg-gradient-to-r from-secondary text-lg font-medium hover:bg-gradient-to-l">
+            Yes, Show Me
+          </Link>
+        </div>
+      </div>
+    </Parallax>
+
+
     <img src="blob:chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/f95ac4b5-65a1-4e72-a64f-a8bfdd47f2be" alt="" />
 
       {/* Services promises  */}

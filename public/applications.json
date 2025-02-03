@@ -1,11 +1,18 @@
 [
-    {
+   {
       "id": 11,
-      "img" : "/applications/todoWebApp.png",
-      "title": "To-Do Web Application",
-      "des"  : "To-Do Web Application is a sleek and user-friendly platform designed to help users efficiently manage their tasks and boost productivity. With a responsive interface.",
-      "source": "https://github.com/battlesofarmy/ToDo-Application/",
-      "live" : "https://todo.muntasir3301.xyz/"
+      "img" : "/applications/bot.webp",
+      "title": "ZestMate (an AI chatbot)",
+      "des"  : "ZestMate is an AI chatbot. I create this AI for an assistant at my university name ZHSUST. This AI can answer all the questions about my university like an assistant. Let's Talk With ZestMate!",
+      "source": "https://github.com/battlesofarmy/chatbot",
+      "live" : "https://zestmate.vercel.app/"
+    },{
+      "id": 12,
+      "img" : "/applications/ta.png",
+      "title": "Tailwind CSS Components",
+      "des"  : "Those CSS components are mainly created for developers. So that they can complete their project quickly by copy and passing a tailwind component. ",
+      "source": "https://github.com/battlesofarmy/code",
+      "live" : "https://code-omega-roan.vercel.app/"
     }
   ]
   
