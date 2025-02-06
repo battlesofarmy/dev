@@ -1,0 +1,45 @@
+[
+    {
+        "id" : 1111,
+        "img" : "/projects/wordpress/camera.png",
+        "title" : "Beautiful world through your camera",
+        "des" : "Tired of camera stores that drone on about specs and megapixels? We're all about igniting your passion. Dive into a curated selection of gear, fueled by expert.",
+        "features" : [
+            "Login Logout",
+            "Payment System"
+        ],
+        "frontend" : ["ReactJs", "ViewJs", "Fahim"],
+        "backend" : ["NodeJs", "mongoDB", "Express"],
+        "tools" : ["Github", "postman", "react component"],
+        "live" : "https://camera.oceanwp.org/",
+        "code" : "https://camera.oceanwp.org/"
+    },{
+        "id" : 1112,
+        "img" : "/projects/wordpress/thrve.png",
+        "title" : "Inner Strength. Create a Life You Love",
+        "des" : "Allow transformative experience to guide you. Understand your values, set goals, and overcome challenges. Gain the confidence to build a fulfilling life.",
+        "features" : [
+            "Login Logout",
+            "Payment System"
+        ],
+        "frontend" : ["ReactJs", "ViewJs", "Fahim"],
+        "backend" : ["NodeJs", "mongoDB", "Express"],
+        "tools" : ["Github", "postman", "react component"],
+        "live" : "https://thrive.oceanwp.org/",
+        "code" : "https://thrive.oceanwp.org/"
+    },{
+        "id" : 1113,
+        "img" : "/projects/wordpress/art.png",
+        "title" : "Bring your artistic talents to the hearts",
+        "des" : "Man face fruit divided seasons herb from herb moveth whose. Domino gathered winged morning, man won’t had fly beginning. Winged have saying behold gathered winged morning.",
+        "features" : [
+            "Login Logout",
+            "Payment System"
+        ],
+        "frontend" : ["ReactJs", "ViewJs", "Fahim"],
+        "backend" : ["NodeJs", "mongoDB", "Express"],
+        "tools" : ["Github", "postman", "react component"],
+        "live" : "https://eduma.thimpress.com/demo-kid-art/",
+        "code" : "https://eduma.thimpress.com/demo-kid-art/"
+    }
+]

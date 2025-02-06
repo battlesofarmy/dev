@@ -17,8 +17,8 @@ import Details from './Components/Pages/details/Details.jsx';
 import Achivements from './Components/Pages/Achivements.jsx';
 import Ecommerce from './Components/Pages/Projects/Ecommerce.jsx';
 import LandingPage from './Components/Pages/Projects/LandingPage.jsx';
-import Booking from './Components/Pages/Projects/Booking.jsx';
 import Others from './Components/Pages/Projects/Others.jsx';
+import Wordpress from './Components/Pages/Projects/Wordpress.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,16 +37,13 @@ const router = createBrowserRouter([
         element: <Ecommerce/>,
       },{
         path: "/projects/112",
-        element: <LandingPage/>,
+        element: <Wordpress/>,
       },{
         path: "/projects/113",
-        element: <Booking/>,
+        element: <LandingPage/>,
       },{
         path: "/projects/114",
         element: <Others/>,
-      },{
-        path: "/projects",
-        element: <Projects />
       }
     ],
   },
@@ -71,6 +68,29 @@ const router = createBrowserRouter([
         element: <Achivements />
       }
     ]
+  },
+  
+  {
+    path: "/projects",
+    element: <Projects/>, 
+    // children: [
+    //   {
+    //     path: "/details/about",
+    //     element: <About />
+    //   },{
+    //     path: "/details/skills",
+    //     element: <Skills />
+    //   },{
+    //     path: "/details/exprience",
+    //     element: <Exprience />
+    //   },{
+    //     path: "/details/education",
+    //     element: <Education />
+    //   },{
+    //     path: "/details/acivements",
+    //     element: <Achivements />
+    //   }
+    // ]
   }
 ]);
 
