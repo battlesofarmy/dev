@@ -7,6 +7,12 @@ import { FaGithub } from "react-icons/fa6";
 import { RiVercelFill, RiNextjsFill } from "react-icons/ri";
 import { SiShadcnui } from "react-icons/si";
 import DetailsSubTitle from "../../../Components/DetailsSubTitle";
+
+// State management
+import { TbBrandZulip } from "react-icons/tb";
+import { TbBrandRedux } from "react-icons/tb";
+import { FaPiedPiper } from "react-icons/fa6";
+
 // Backend Techonologys
 import { SiNestjs } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -39,7 +45,7 @@ export default function Skills() {
   const backendIcons = ['SiNodedotjs','SiExpress', 'SiNestjs','SiPrisma', 'SiMongoose'];
   const databaseIcons = ['SiPostgresql','SiMongodb'];
   const frontIcons = ['RiNextjsFill', 'LiaReact', 'SiTailwindcss', 'SiShadcnui'];
-  const stateIcons = ['RiNextjsFill', 'LiaReact', 'SiTailwindcss'];
+  const stateIcons = ['TbBrandZulip', 'TbBrandRedux', 'FaPiedPiper'];
   const authIcons = ['RiFirebaseFill', 'RiSupabaseLine', 'SiJsonwebtokens', 'TbBrandNextjs'];
   const apiIcons = ['TbApiOff', 'GrGraphQl'];
   const toolsIcons = ['FaGitAlt', 'FaGithub', 'SiPostman', 'RiVercelFill', 'SiNetlify'];
@@ -69,9 +75,9 @@ export default function Skills() {
     SiShadcnui : SiShadcnui
   }
   const stateIconMap = {
-    RiNextjsFill : RiNextjsFill,
-    LiaReact : LiaReact,
-    SiTailwindcss : SiTailwindcss,
+    TbBrandZulip : TbBrandZulip,
+    TbBrandRedux : TbBrandRedux,
+    FaPiedPiper : FaPiedPiper,
   }
   const authIconMap = {
     RiFirebaseFill : RiFirebaseFill,

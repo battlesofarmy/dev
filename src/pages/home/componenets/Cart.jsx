@@ -12,7 +12,12 @@ export default function Card({ele, btn = 2}) {
                 <i className='text-4xl' style={{fontSize: '55px'}}>
                     <PiRocketLaunchBold />
                 </i>
-                <Link to={`/projects/${id}`}> </Link>
+                {
+                    btn===1 ? 
+                    <Link to={`/projects/${id}`}> </Link>
+                    :
+                    <a target='_blank' href={live}></a>
+                }
             </div>
             {/* Card Body  */}
             <div className='md:pb-6 pb-4 md:pt-8 pt-6 lg:px-10 px-3'>
