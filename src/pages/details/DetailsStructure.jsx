@@ -1,10 +1,10 @@
-import SocalIcons from "../../Global/SocialIcons";
+import SocalIcons from "@/src/Components/SocialIcons";
 import { ImLocation2 } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { Link, Outlet, useLocation} from 'react-router-dom'
-import profilePic from '../../../assets/profile.jpeg'
-import Navbar from "../../Global/Navbar";
-import Footer from "../../Global/Footer";
+import profilePic from "@/src/assets/profile.jpeg"
+import Navbar from "@/src/Components/Navbar";
+import Footer from "@/src/Components/Footer";
 
 export default function Details() {
     const title = useLocation().pathname.split('/').pop();

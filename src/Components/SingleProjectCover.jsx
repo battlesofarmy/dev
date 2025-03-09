@@ -1,4 +1,4 @@
-import projectCoverImg from '../../assets/projects/projects-bg.webp'
+import projectCoverImg from '@/src/assets/projects/projects-bg.webp'
 
 export default function SingleProjectCover({title}) {
   return (

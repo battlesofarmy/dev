@@ -6,19 +6,19 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import About from './Components/Pages/About.jsx';
-import Home from './Components/Pages/Home/Home.jsx';
-import SinglePromise from './Components/Pages/Home/SinglePromise.jsx';
-import Projects from './Components/Pages/Projects.jsx';
-import Skills from './Components/Pages/Skills.jsx';
-import Education from './Components/Pages/Education.jsx';
-import Exprience from './Components/Pages/Exprience.jsx';
-import Details from './Components/Pages/details/Details.jsx';
-import Achivements from './Components/Pages/Achivements.jsx';
-import Ecommerce from './Components/Pages/Projects/Ecommerce.jsx';
-import LandingPage from './Components/Pages/Projects/LandingPage.jsx';
-import Others from './Components/Pages/Projects/Others.jsx';
-import Wordpress from './Components/Pages/Projects/Wordpress.jsx';
+import About from './pages/details/details-pages/About.jsx';
+import Home from './pages/home/Home.jsx';
+import SinglePromise from './pages/Home/componenets/SinglePromise.jsx';
+import Projects from './pages/projects/Projects.jsx';
+import Skills from './pages/details/details-pages/Skills.jsx';
+import Education from './pages/details/details-pages/Education.jsx';
+import Exprience from './pages/details/details-pages/Exprience.jsx';
+import Details from './pages/details/DetailsStructure.jsx';
+import Achivements from './pages/details/details-pages/Achivements.jsx';
+import Ecommerce from './pages/home/projects-carts/Ecommerce.jsx';
+import LandingPage from './pages/home/projects-carts/LandingPage.jsx';
+import Others from './pages/home/projects-carts/Others.jsx';
+import Wordpress from './pages/home/projects-carts/Wordpress.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +28,9 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },{
+        path: "/projects",
+        element: <Projects/>, 
       },{
         path: "/promises/:id",
         element: <SinglePromise/>,
@@ -68,29 +71,6 @@ const router = createBrowserRouter([
         element: <Achivements />
       }
     ]
-  },
-  
-  {
-    path: "/projects",
-    element: <Projects/>, 
-    // children: [
-    //   {
-    //     path: "/details/about",
-    //     element: <About />
-    //   },{
-    //     path: "/details/skills",
-    //     element: <Skills />
-    //   },{
-    //     path: "/details/exprience",
-    //     element: <Exprience />
-    //   },{
-    //     path: "/details/education",
-    //     element: <Education />
-    //   },{
-    //     path: "/details/acivements",
-    //     element: <Achivements />
-    //   }
-    // ]
   }
 ]);
 

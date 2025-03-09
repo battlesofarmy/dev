@@ -28,9 +28,6 @@ export default function SinglePromise() {
             <h4 key={999} className="my-12"><span className="font-medium shadow p-2 bg-slate-50 mr-3"># {ele.name}</span> {ele.value}</h4>
             )
         }
-
-
-
         </div>
       </section>
     </>

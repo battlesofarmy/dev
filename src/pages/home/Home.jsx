@@ -1,5 +1,5 @@
-import SectionTitle from "../../Global/SectionTitle";
-import Card from "./Cart";
+import SectionTitle from "../../Components/SectionTitle";
+import Card from "@/src/pages/Home/componenets/Cart";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaCode } from "react-icons/fa6";
@@ -7,9 +7,10 @@ import { FaUser } from "react-icons/fa";
 import { RiSecurePaymentFill } from "react-icons/ri";
 import { VscLayersActive } from "react-icons/vsc";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
-import CPImg from "../../../assets/problem-solving-skills.png";
-import CPExprience from "../../Global/CPExprience";
-import bn from '../../../../public/banner-image.jpg'
+import CPImg from "@/src/assets/problem-solving-skills.png";
+import CPExprience from "@/src/Components/CPExprience";
+import bn from '/banner-image.jpg?url'
+
 import { Parallax } from 'react-parallax';
 
 

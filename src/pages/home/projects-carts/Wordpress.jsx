@@ -1,19 +1,19 @@
-import SingleProjectCover from "../../Global/SingleProjectCover";
+import SingleProjectCover from "@/src/Components/SingleProjectCover";
 import { useEffect, useState } from "react";
-import SingleProjectCart from "../../Global/SingleProjectCart";
+import SingleProjectCart from "@/src/Components/SingleProjectCart";
 
-export default function LandingPage() {
+export default function Wordpress() {
 const [esites, setEsites] = useState();
 
 useEffect(()=>{
-    fetch('/landing-page.json')
+    fetch('/wordpress.json')
     .then(res=>res.json())
     .then(data=> setEsites(data))
 },[]);
 
 return (
   <>
-    <SingleProjectCover title={"Landing Page Design"}/>
+    <SingleProjectCover title={"Wordpress Websites Design"}/>
     <section className="lg:pb-20 lg:pt-10 pt-0 pb-10">
       <div className="container">
       {

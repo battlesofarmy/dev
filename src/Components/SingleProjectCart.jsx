@@ -1,6 +1,6 @@
-import fontendImg from "../../assets/projects/font.png";
-import backendImg from "../../assets/projects/back.png";
-import toolsImg from "../../assets/projects/tools.png";
+import fontendImg from "@/src/assets/projects/font.png";
+import backendImg from "@/src/assets/projects/back.png";
+import toolsImg from "@/src/assets/projects/tools.png";
 
 export default function SingleProjectCart({ ele }) {
   return (

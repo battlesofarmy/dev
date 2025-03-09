@@ -1,6 +1,6 @@
 import { LuSquareArrowOutUpRight } from "react-icons/lu";
-import CPExprience from "../Global/CPExprience";
-import DetailsSubTitle from "../Global/DetailsSubTitle";
+import CPExprience from "../../../Components/CPExprience";
+import DetailsSubTitle from "../../../Components/DetailsSubTitle";
 
 export default function Exprience() {
   return (

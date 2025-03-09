@@ -6,7 +6,7 @@ import { LiaReact } from "react-icons/lia";
 import { FaGithub } from "react-icons/fa6";
 import { RiVercelFill, RiNextjsFill } from "react-icons/ri";
 import { SiShadcnui } from "react-icons/si";
-import DetailsSubTitle from "../Global/DetailsSubTitle";
+import DetailsSubTitle from "../../../Components/DetailsSubTitle";
 
 
 export default function Skills() {

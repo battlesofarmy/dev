@@ -1,6 +1,6 @@
-import SingleProjectCover from "../../Global/SingleProjectCover";
-import SingleProjectCart from "../../Global/SingleProjectCart";
-import othersData from "../../../../public/others.json"
+import SingleProjectCover from "@/src/Components/SingleProjectCover";
+import SingleProjectCart from "@/src/Components/SingleProjectCart";
+import othersData from "/others.json?url"
 
 export default function Others() {
 return (

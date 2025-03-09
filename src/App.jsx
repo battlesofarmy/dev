@@ -1,6 +1,6 @@
 import { Outlet, useLocation,  } from 'react-router-dom'
-import Navbar from './Components/Global/Navbar'
-import Footer from './Components/Global/Footer'
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 import './App.css'
 import { useEffect } from 'react';
 
